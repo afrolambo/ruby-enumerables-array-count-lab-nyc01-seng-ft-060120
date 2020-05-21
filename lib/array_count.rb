@@ -21,6 +21,5 @@ while index < array.count do
   index += 1 
 end 
 total 
-end
   # Return the total number of EMPTY strings in the provided array using the count enumerable
 end
