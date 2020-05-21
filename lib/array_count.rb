@@ -3,12 +3,13 @@ def count_strings(array)
   total = 0 
   index = 0 
   while index < array.length do 
-    
-  
-#takes in an array of varying data types and 
-
-#something counts total number of strings 
-#returns the total number of strings 
+    array.count do |index| 
+      if array[index].is_a?(String)
+        total += 1 
+      end 
+      index += 1 
+    end 
+total 
 end
 
 def count_empty_strings(array)
