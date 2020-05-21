@@ -1,4 +1,4 @@
-array = []
+array = [1, "hello", "world", 6]
 def count_strings(array)
 total = 0 
 index = 0 
