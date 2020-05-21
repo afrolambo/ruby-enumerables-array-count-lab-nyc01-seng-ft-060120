@@ -17,8 +17,6 @@ index = 0
 while index < array.count do 
    if array[index].is_a?(String)
      total += 1 
-     if array[index.lenght] > 2 
-       total -= 1 
     end 
   index += 1 
 end 
