@@ -7,6 +7,7 @@ def count_strings(array)
       if array[index].is_a?(String)
         total += 1 
       end 
+      end 
       index += 1 
     end 
 total 
