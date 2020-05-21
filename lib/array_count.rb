@@ -1,3 +1,4 @@
+array = []
 def count_strings(array)
 total = 0 
 index = 0 
