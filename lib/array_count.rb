@@ -3,8 +3,8 @@ def count_strings(array)
   total = 0 
   index = 0 
   while index < array.length do 
-    array.count do |index| 
-      if array[index].is_a?(String)
+    array.count do |object| 
+      if array[object].is_a?(String)
         total += 1 
       end 
       end 
