@@ -7,6 +7,7 @@ while index < array.count do
      total += 1 
     end 
   index += 1 
+end 
 end
 
 def count_empty_strings(array)
