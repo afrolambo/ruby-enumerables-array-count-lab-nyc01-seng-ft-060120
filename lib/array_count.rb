@@ -1,6 +1,6 @@
 def count_strings(array)
   count = 0
-  while array.count do |element|
+  while count < array.count do |element|
     if array(element).is_a?(String)
       count += 1 
     end 
