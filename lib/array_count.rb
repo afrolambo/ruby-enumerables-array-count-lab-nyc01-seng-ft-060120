@@ -15,7 +15,8 @@ def count_empty_strings(array)
   total = 0 
 index = 0 
 while index < array.count do 
-   if array[index].count("")
+   if array.count |index| do 
+     array.count("")
      total += 1 
     end 
   index += 1 
